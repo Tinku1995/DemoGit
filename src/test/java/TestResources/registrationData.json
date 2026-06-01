@@ -1,0 +1,12 @@
+[
+  {
+    "firstName": "Krish",
+    "lastName": "Krish123",
+    "email": "KK123@mailinator.com",
+    "phoneNumber": "9876543210",
+    "occupation": "Student",
+    "gender": "Male",
+    "password": "Test@12345",
+    "confirmPassword": "Test@12345"
+  }
+]
