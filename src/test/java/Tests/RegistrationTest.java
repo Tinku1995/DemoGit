@@ -39,6 +39,12 @@ public class RegistrationTest extends BaseTest {
         Assert.assertTrue(successMsg.contains("Account Created Successfully"),
                 "Registration failed. Actual message: " + successMsg);
     }
+    
+    public void invalidLogin()
+    {
+    	System.out.println("You have done invalid login");
+    	System.out.println("You can try to login again");
+    }
 
     @DataProvider(name = "getRegisterData")
     public Object[][] getRegisterData() throws IOException {
