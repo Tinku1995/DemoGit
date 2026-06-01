@@ -16,6 +16,8 @@ public class LoginTest extends BaseTest {
                 "Incorrect email or password.");
         System.out.println("New Line added 1");
 		System.out.println("New Line added 2");
+		System.out.println("New Line added 3");
+		System.out.println("New Line added 4");
     }
 
     @Test(groups = { "Login" })
