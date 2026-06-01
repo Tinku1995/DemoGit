@@ -45,6 +45,11 @@ public class RegistrationTest extends BaseTest {
     	System.out.println("You have done invalid login");
     	System.out.println("You can try to login again");
     }
+    
+    public void finalLogin()
+    {
+    	System.out.println("Make sure this will be last login");
+    }
 
     @DataProvider(name = "getRegisterData")
     public Object[][] getRegisterData() throws IOException {
