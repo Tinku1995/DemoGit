@@ -14,6 +14,8 @@ public class LoginTest extends BaseTest {
         landingPage.loginApplication("invalid@gmail.com", "wrongpassword");
         Assert.assertEquals(landingPage.getErrorMessage(),
                 "Incorrect email or password.");
+        System.out.println("New Line added 1");
+		System.out.println("New Line added 2");
     }
 
     @Test(groups = { "Login" })
